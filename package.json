@@ -1,0 +1,19 @@
+{
+  "name": "testsuiterunner",
+  "version": "1.0.0",
+  "description": "This is the task dispatcher service which enables scheduling, monitoring and retrieval of results of a set of tasks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Jalgaonkar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.3",
+    "node-cmd": "^3.0.0"
+  }
+}
