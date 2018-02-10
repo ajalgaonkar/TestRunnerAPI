@@ -7,7 +7,8 @@ For running the application please ensure you have the following
 
 Once you have the above to run the service:
 * Start the local instance of MongoDB. Once running it will start listening on port 27017 for any connections.
-* Navigate to the project folder and run the following command `node .\server.js`.
+* Navigate to the project folder and run the following command `npm install`. This will get all the packages that you need for running the project.
+* Once you have all the packages, from the project folder run the following command `node .\server.js`.
 * If everything is good you will see the following on the console `TestRunner server listening on port 3000`
 
 ![Alt text](ScreenShots/RunningServer.png?raw=true "Server Console")
